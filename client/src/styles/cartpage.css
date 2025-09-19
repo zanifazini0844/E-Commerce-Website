@@ -1,0 +1,108 @@
+/* Cart Page Styles */
+.cart-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: "Playwrite DK Uloopet", cursive;
+  }
+  
+  .cart-page .row {
+    margin-bottom: 20px;
+  }
+  
+  .cart-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cart-page .card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(53, 21, 21, 0.922);
+    border-radius: 10px;
+    width: 600px;
+  }
+  
+  .cart-page .card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .cart-page .card p {
+    margin: 0;
+  }
+  
+  .cart-page .cart-remove-btn button {
+    margin-left: 222px;
+    margin-top: -277px;
+  
+  }
+  
+  .cart-summary {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(241, 240, 240, 0.445);
+  }
+  
+  .cart-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .cart-summary hr {
+    margin: 20px 0;
+  }
+  
+  .cart-summary h4 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cart-summary .btn-outline-warning {
+    margin-top: 10px;
+  }
+  
+  .cart-summary .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .cart-summary .mb-3,
+  .cart-summary .mt-2 {
+    margin-top: 20px;
+  }
+  
+  .cart-summary .btn {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .cart-page .row {
+      flex-direction: column;
+    }
+  
+    .cart-page .col-md-7,
+    .cart-page .col-md-5 {
+      width: 100%;
+    }
+  
+    .cart-page .card {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .cart-page .card img {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .cart-page .cart-remove-btn button {
+      margin: 20px auto;
+    }
+  }
+  

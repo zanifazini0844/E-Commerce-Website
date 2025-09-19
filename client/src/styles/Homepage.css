@@ -1,0 +1,137 @@
+/* Homepage.css */
+
+.home-page {
+  padding: 20px;
+}
+.text-center {
+  font-size: 20px;
+  font-family: "Playwrite DK Uloopet", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #5fcfff, #095ea3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: background-position 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+.text-center:hover {
+  background-position: 0 0;
+  text-decoration: underline;
+}
+
+
+.filters {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.filters h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.filters .ant-checkbox-wrapper {
+  margin-bottom: 10px;
+}
+
+.filters .ant-radio-wrapper {
+  margin-bottom: 8px;
+}
+
+.filters .btn-danger {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.card-price {
+  color: #4caf50;
+  font-weight: 600;
+}
+
+.btn-info,
+.btn-dark {
+  margin-top: 10px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-info:hover {
+  background-color: #117a8b;
+  border-color: #117a8b;
+}
+
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:hover {
+  background-color: #1d2124;
+  border-color: #1d2124;
+}
+
+.loadmore {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.loadmore:hover {
+  background-color: #0056b3;
+}

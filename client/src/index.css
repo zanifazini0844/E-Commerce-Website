@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+/* Navbar */
+.navbar {
+  font-family: "Playwrite DK Uloopet", cursive;
+  background-color: #000; /* Black background */
+  padding: 15px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+  color: #3498db;
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar .navbar-brand svg {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: #3498db; /* Blue color */
+}
+
+.navbar .nav-link {
+  color: #0d758f; /* Light color for contrast */
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  font-family: "Playwrite DK Uloopet", cursive;
+  color: #3498db; /* Blue color on hover and active */
+}
+
+.navbar .dropdown-menu {
+  background-color: #0f4571; /* Dark grey background */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #ecf0f1; /* Light color */
+  transition: background-color 0.3s;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #2c3e50; /* Dark blue background on hover */
+}
+
+.navbar .nav-item .badge {
+  background-color: #166294; /* Blue color */
+  color: #7e93e8;
+}
+
+/* Search Input */
+.search-form {
+  margin-right: -235px;
+  display: flex;
+  align-items: center;
+}
+
+.search-form .form-control {
+  border-radius: 20px;
+  border: none;
+  background-color: #ecf0f1; /* Light background */
+  color: #000; /* Black text */
+  margin-right: 10px;
+  padding: 5px 15px;
+}
+
+.search-form .form-control::placeholder {
+  color: #091e1e; /* Grey placeholder text */
+}
+
+.search-form .btn {
+  border-radius: 20px;
+  background-color: #083e63; /* Blue color */
+  color: #eeeff3b7;
+  border: none;
+  padding: 5px 15px;
+  transition: background-color 0.3s;
+}
+
+.search-form .btn:hover {
+  background-color: #1e6ca0; /* Darker blue on hover */
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  font-family: "Playwrite DK Uloopet", cursive;
+  color: white;
+  padding: 25px;
+  background: #7ec1f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #77bbd0,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0e0a0a, #378cb5);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+
+/*page not found*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+.col-md-4 {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+
+/*register page*/
+.register {
+  font-family: "Playwrite DK Uloopet", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(158, 100, 100, 0.1);
+  max-width: 550px;
+  margin: 50px auto;
+  
+}
+
+.register h4 {
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #333333;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555555;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+  color: #555555;
+  width: 437px;
+}
+
+.form-control:focus {
+  border-color: #888888;
+  outline: none;
+  box-shadow: 0 0 8px rgba(136, 136, 136, 0.3);
+  
+}
+
+.btn-primary {
+  background-color: #555555;
+  border-color: #555555;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+::placeholder {
+  color: #aaaaaa;
+}
+
+
+
+.login {
+  font-family: "Playwrite DK Uloopet", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(158, 100, 100, 0.1);
+  max-width: 550px;
+  margin: 50px auto;
+}
+
+.login:hover {
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login .title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.login .mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.login .form-control {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+  width: 470px;
+}
+
+.login .form-control:focus {
+  border-color: #a69da9;
+  box-shadow: 0 0 8px rgba(155, 89, 182, 0.2);
+  outline: none;
+}
+
+.login .btn {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  color: #fff;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-bottom: 29px;
+
+}
+
+.login .btn:hover {
+  background: linear-gradient(135deg, #9b59b6, #71b7e6);
+}
+
+.login .forgot-password {
+  background: none;
+  border: none;
+  color: #9b59b6;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login .forgot-password:hover {
+  color: #3a0b78;
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding: 1.5rem;
+    width: 90%;
+  }
+
+  .login .title {
+    font-size: 1.5rem;
+  }
+
+  .login .btn {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .login .form-control {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+.product-link{
+  text-decoration: none !important;
+  color: black !important;
+}

@@ -1,8 +1,6 @@
 # Glow Garden – E-Commerce Website for Skin Care Products  
 A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform with secure authentication, product management, order processing, payment integration, and admin dashboard.
 
----
-
 ## Features
 
 ### User Features
@@ -19,8 +17,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 - Manage products (add, update, delete)
 - Manage and update order statuses
 - Role-based access (admin-only features)
-
----
 
 ## Tech Stack
 
@@ -43,10 +39,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 - MongoDB Atlas  
 - Mongoose ODM  
 
----
-
----
-
 ## Core Modules
 
 ### Authentication
@@ -65,8 +57,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 - Track orders  
 - Admin order management  
 
----
-
 ##  Testing
 
 ### Unit Testing
@@ -82,8 +72,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 ### System Testing
 - Full workflow from browsing → cart → payment → order tracking  
 
----
-
 ## Security Features
 - JWT authentication  
 - Bcrypt password hashing  
@@ -91,8 +79,6 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 - CORS protection  
 - Environment variables for sensitive data  
 - Input validation  
-
----
 
 ## Limitations
 - No wishlist  
@@ -107,12 +93,9 @@ A full-stack MERN (MongoDB, Express.js, React.js, Node.js) e-commerce platform w
 - React Native mobile app  
 - Redis caching  
 
----
-
 ## Project Outcome
 A complete MERN stack e-commerce web application demonstrating secure authentication, product management, order workflow, payment integration, administrative control, and full-stack implementation.
 
----
 
 
 
